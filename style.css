@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.container{
+  width: 1440px;
+  height: 3559px;
+  background: #010001;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 123px;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  width: 1230px;
+  height: 17px;
+  background: #000000;
+}
+.nav{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-link{
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color:white
+}
+.gray-link {
+  color: gray;
+}
+.main{
+  height: 1250px;
+}
+.heading {
+  font-family: Roboto;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+.heading1 {
+  font-size: 64px;
+  font-weight: 400;
+  padding-top: 120px;
+}
+.heading4 {
+  font-size: 16px;
+  font-weight: 300;
+  width: 268px;
+  padding-top: 26px;
+  padding-bottom: 32px;
+}
+.falcon-overwiew {
+  margin-left: 149px;
+  color: white;
+  width: 603px;
+  margin-bottom: 218px;
+  margin-top: 492px;
+}
+.overwiew-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-bottom: 45px;
+}
+.overview-text {
+  display: flex;
+  column-gap: 120px;
+}
+.falcon-parameters {
+  list-style: none;
+  line-height: 180%;
+}
+.ft {
+  color: #808080;
+}
+.unmatched-performance {
+  margin-left: 149px;
+  color: white;
+  width: 603px;
+  margin-bottom: 218px;
+}
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+}
+.falcon {
+  margin-bottom: 183px;
+}
+.rocket {
+  margin-left: 50%;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-logo {
+  margin-bottom: 44px;
+}
+.footer-nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 28px;
+}
+.footer-nav-link {
+  text-decoration: none;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color:white
+}
+.contact {
+  color: #808080;
+  margin-bottom: 30px;
+}
+.contact > a {
+  color: #808080;
+  text-decoration: none;
+}
+.contact-us {
+  width: 260px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background-color: transparent;
+}
