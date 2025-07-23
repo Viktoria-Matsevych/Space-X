@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 32px 12px;
+  }
+
+  .header {
+    height: auto;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    height: auto;
+  }
+
+  .main {
+    height: auto;
+  }
+
+  .earth {
+    width: 100%;
+  }
+
+  .falcon-overwiew {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 64px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overview-text {
+    column-gap: 32px;
+  }
+
+  .falcon-parameters {
+    line-height: 32px;
+  }
+
+  .unmatched-performance {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .overwiew-title {
+    text-align: center;
+  }
+
+  .falcon {
+    margin-bottom: 64px;
+  }
+
+  .rocket {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 44px;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

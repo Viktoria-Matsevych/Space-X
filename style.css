@@ -146,28 +146,3 @@
   color: white;
   background-color: transparent;
 }
-@media(min-width:1440px){
-  .container{
-     left:529px;
-     top:190px;
-     font-size: 20px;
-  }
-}
-@media(max-width:1439px) and (min-width:768px){
-  .container{
-      left: 200px;
-      top: 150px;
-      width: 300px;
-font-size: 18px;
-  }
-}
-@media (max-width:767px) {
-  .container{
-    left: 50%;
-    top: 100px;
-    transform: translateX(-50%);
-    width: 250px;
-    font-size: 16px;
-  }
-
-}
