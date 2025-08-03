@@ -139,6 +139,7 @@ html {
   justify-content: center;
   align-items: center;
   height: 123px;
+  gap: 8px;
 }
 
 .header-content {
@@ -166,6 +167,17 @@ html {
 
 .gray-link {
   color: gray;
+}
+
+.translate-buttons {
+  width: 68px;
+  height: 30px;
+  cursor: pointer;
+
+  & img {
+    width: 68px;
+    height: 30px;
+  }
 }
 
 .main {
