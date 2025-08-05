@@ -7,6 +7,11 @@
   user-select: none;
 }
 
+html {
+  scroll-behavior: smooth;
+  background: #010001
+}
+
 .body {
   background: #010001;
   overflow-x: hidden;
@@ -209,6 +214,28 @@ html {
   padding-bottom: 32px;
 }
 
+.earth {
+  width: 100%;
+  animation: visible 2s ease-out forwards;
+  animation-timeline: scroll(root block);
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+  background: #000;
+}
+
+@keyframes visible {
+  0% {
+    transform: scale(0.5) rotate(-5deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1) rotate(5deg);
+    opacity: 1;
+  }
+}
+
 .falcon-overwiew {
   margin-left: 149px;
   color: white;
@@ -233,6 +260,10 @@ html {
   height: 300px;
   border-radius: 50%;
   background-image: url(fone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   border: 10px solid wheat;
   margin: 100px;
   box-shadow: 1px 1px 3px wheat;
@@ -426,6 +457,20 @@ html {
 
 .rocket {
   margin-left: 50%;
+  animation: visible 2s ease-out forwards;
+  animation-timeline: scroll(root block);
+}
+
+@keyframes visible {
+  0% {
+    transform: scale(0.5) rotate(5deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1) rotate(1deg);
+    opacity: 1;
+  }
 }
 
 .footer {
