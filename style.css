@@ -21,10 +21,6 @@ html {
   height: 100vh;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 /* From Uiverse.io by IsaiahAltDelete */
 .space-loader {
   position: absolute;
